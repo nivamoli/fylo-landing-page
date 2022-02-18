@@ -144,3 +144,12 @@ html, * {
 .productive__link--icon {
   margin-left: 5px;
 }
+
+/*services*/
+
+.cards {
+  background: var(--dark-blue-testimonial);
+  padding: 30px 20px;
+  margin-bottom: 20px;
+}
+
