@@ -151,6 +151,21 @@ html, * {
   background: var(--dark-blue-testimonial);
   padding: 30px 20px;
   margin-bottom: 20px;
+  text-align: center;
+  border-radius: 30px;
 }
 
+.card__info--img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  margin-top: 20px;
 }
+
+.card__info--title {
+  font-size: calc(var(--font-size) + 4px)
+}
+
+
+
+
