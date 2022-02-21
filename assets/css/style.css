@@ -166,6 +166,43 @@ html, * {
   font-size: calc(var(--font-size) + 4px)
 }
 
+/* section access */
 
+.access {
+  margin: 150px 0 80px 0;
+  background: var(--dark-blue-testimonial);
+  height: 340px;
+  padding: 20px;
+  border-radius: 30px;
+  text-align: center;
+}
 
+.access__title {
+  font-size: calc(var(--font-size) + 6px);
+}
 
+.access__pgraph {
+  text-align: center;
+  font-size: var(--font-size);
+  color: var(--);
+  margin-bottom: 30px;
+}
+
+.access-form__input--input {
+  padding: 17px 12px 17px 25px;
+  border-radius: 25px;
+  width: 100%;
+  font-size: calc(var(--font-size) - 4px);
+  color: rgba(245, 245, 245, 0.883);
+  border: none;
+  margin-bottom: 20px;
+}
+
+.access-form__input--button {
+  width: 100%;
+  padding: 15px 12px;
+  border-radius: 25px;
+  border: none;
+  color: var(--white);
+  background: linear-gradient(90deg, rgba(101,226,217,1) 0%, rgba(51,158,204,1) 77%, rgba(51,158,204,1) 100%);  
+}
